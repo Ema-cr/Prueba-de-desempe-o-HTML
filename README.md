@@ -1,36 +1,47 @@
-# ☕ PortFolio Emanuel Gaviria
-
-Bienvenido a mi Portfolio, una cafetería que ofrece experiencias únicas y sabores inigualables en el corazón de Chinchiná, Caldas.
+# HTML and CSS Test
 
 ---
 
-## 🌐 Vista previa
+* Name: Emanuel Gaviria 
+* Clan: Lovelace   
+* Email: gaviriacardonaemanuel@gmail.com
+* C.C.: 1000920354  
 
-Este proyecto es una página web estática desarrollada con HTML y CSS, diseñada para ser **responsive** y visualmente atractiva en cualquier dispositivo (móvil, tablet o escritorio).
+---  
 
+## 🚀 About the Project
 
-## ✨ Características principales
+Welcome to my "HTML and CSS Test" project! This is a personal webpage I've created to showcase my skills in **HTML and CSS**. The page is designed to serve as a digital introduction and a showcase of my work.
 
-- Diseño moderno y profesional.
-- Intento de responsive
-- Secciones:
-  - Acerca de mi
-  - Proyectos con imágenes y hover animado
-  - Footer estilizado
+The site is divided into three main sections:
+
+* **About-me:** A brief introduction about me.
+* **Projects:** A display of my projects and works.
+* **Contact:** A section for you to get in touch with me.  
 
 ---
 
-## 🚀 ¿Cómo verlo?
+## 👍 Technologies Used  
 
-1. Descarga o clona el repositorio.
-2. Abre el archivo `index.html` en tu navegador.
+This project was developed using the following technologies:
 
+* **HTML5:** For the structure and content of the page.
+* **CSS:** For styling, aesthetics, and visual adaptation.
 
-## 🧑‍💻 Autor
+---  
 
-Desarrollado por [Emanuel Gaviria]  
+## 🌐 Project Visualization
+
+Since this project is a static webpage, it doesn't require complex installation. You can view the project directly via the link provided by the GitHub repository:
+
+**https://github.com/Ema-cr/Prueba-de-desempe-o-HTML**
+
 ---
 
-## 📝 Licencia
+## ✨ Key Features
 
-Este proyecto es de uso libre con fines educativos.
+* **Responsive Design:** The page adapts to different screen sizes, ensuring a good experience on both desktop and mobile devices.
+* **Clear and Simple Interface:** Focused on ease of navigation and content clarity.
+* **Defined Sections:** Clearly structured presentation, portfolio, and contact sections for intuitive navigation.
+
+---
