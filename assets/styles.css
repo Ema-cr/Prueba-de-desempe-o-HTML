@@ -1,0 +1,354 @@
+*{    /*box-size for all the elements in the page */
+    box-sizing: border-box;
+}
+
+html{   /* smooth scrolling for better user experience */
+    scroll-behavior: smooth;
+}
+
+a{    /* no decoration in links*/
+    text-decoration: none;
+    color: white;
+}
+
+body{   /* different font type*/
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+span{
+    color: blueviolet;
+}
+
+h1{font-size: 3.0rem;} /* different sizes of text, titles and logo*/
+h2{font-size: 2.0rem;}
+h3{font-size: 2.5rem;}
+p{font-size: 1.25rem;}
+.logo{font-size: 3rem;}
+
+button {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color:white;
+    background-color:blueviolet;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(27, 0, 53);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.1);              
+    cursor: pointer;
+}
+
+
+header{        /* header of the page with background color and display flex */
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    padding: 10px;
+}
+
+
+.logo-name{     /*different size of the logo*/
+    font-size: 3.0rem;
+}
+
+.logo{       /*logo with display flex for better position*/
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img{    /*logo image with height */
+    padding: 10px;
+    height: 8rem;
+}
+
+
+nav a{  /*nav links with weight and padding and diferent size*/
+    text-align: center;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+nav a:hover{    /*hover for change the color of the links*/
+    background-color: white;
+    color:blueviolet
+}
+
+.container-main{
+    max-width: 1700px;
+    margin:auto;
+}
+
+@media (max-width:768px){   /*making the header responsive with screen with less pixels*/
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    nav{
+        padding: 20px 0px;
+    }
+
+    .container-main{
+        display: flex;
+        flex-direction: center;
+        justify-content: space-around;
+        max-height: 150vh;
+    }
+
+    .about-me h2{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width:480px){     /*making the header responsive with screen with less pixels*/
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    nav{
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.about-me{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.container-main img{
+    width: 60vh;
+    height: auto;
+}
+
+.img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6); 
+}
+
+@media (max-width:768px){   /*making the header responsive with screen with less pixels*/
+    .about-me{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .about-me img{
+        padding: 20px;
+        width: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+
+}
+
+
+#projects{
+    text-align: center;
+    background-color:blueviolet;
+    color:white;
+    border: solid 10px;
+}
+
+#projects{
+    padding: 10px 12px;
+}
+
+#projects h2{
+    margin-top: 4rem;
+    display: flex;
+    justify-content:center;
+    font-size: 4rem;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: blueviolet;
+    background-position: center center;
+    background-size: cover;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.webs{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.webs:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+.webs img{
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease; box-shadow: 0.3s ease;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    justify-content:flex-end
+}
+
+
+
+@media (max-width:768px){   /*making the header responsive with screen with less pixels*/
+ 
+    #projects{
+    
+    padding: 100px 12px;
+        
+    }
+
+    #projects .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+          
+    }
+
+    button {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 20px 50px;
+        border-radius: 10px;
+        border: 2px solid rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        color:white;
+        background-color:blueviolet;
+        cursor: pointer;
+    }
+    .webs img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+@media (max-width:480px){   /*making the header responsive with screen with less pixels*/
+    .container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .container img{
+        padding: 20px;
+        width: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .container h2{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+#contact button{
+    margin-top: 2vh;
+}
+
+#contact .container{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding: 30px;
+    color: blueviolet
+  }
+
+#contact form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+#contact h3{
+    align-self:center;
+}
+
+label{
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 20px 0px;
+}
+#contact input{
+    border: 2px solid;
+    color: blueviolet;
+    height: 3vh;
+    border-radius: 8px;
+}
+
+#contact textarea{
+    width: 30vh;
+    height: 15vh;
+    border: 2px solid;
+    color: blueviolet;
+    border-radius: 8px;
+}
+
+
+#footer .container {
+    background-color: rgb(194, 143, 241);
+    color: white;
+    font-size: 0.9em; 
+    padding: 15px 30px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    border-top: 3px solid blueviolet
+  }

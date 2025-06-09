@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icon for the navigation bar-->
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <title>Portfolio</title>
+    <!--Google Fonts for a custom font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/icon.png" alt="logo" class="logo-img">
+            <h2 class="logo-name">Personal Portfolio</h2>
+        </a>
+
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-main">
+            <div class="img">
+                <img src="assets/picture.png" alt="photo">
+            </div>
+            <section class="about-me">
+                <h1>Hey, Im <strong>Emanuel Gaviria</strong></h1>
+                <h2>I am a software developer in progress.<br> Right now I am learning all about this world of programming in <span>Riwi.</span><br>
+                I am very excited about the things I will learn on this path.</h2>
+            </section>
+        </div>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="container">
+                    <div class="webs">
+                        <h3>Erfusion</h3>
+                        <img src="assets/project1.png" alt="">
+                        <a href="https://br.freepik.com/psd-premium/pagina-de-destino-do-marketing-digital_7097058.htm#fromView=keyword&page=1&position=15&uuid=798ba58f-8d14-4507-b8da-8c8789d9d862&query=Interface+Web"><button>Visit</button></a>
+                    </div>
+                    <div class="webs">
+                        <h3>Podcast</h3>
+                        <img src="assets/project2.png" alt="">
+                        <a href="https://br.freepik.com/psd-gratuitas/pagina-de-destino-do-podcast_12893541.htm#fromView=keyword&page=1&position=14&uuid=59697fa3-e822-4384-b75f-a0e35278bf52&query=Interface+Web"><button>Visit</button></a>
+                    </div>
+                    <div class="webs">
+                        <h3>Music</h3>
+                        <img src="assets/project3.png" alt="">
+                        <a href="https://br.freepik.com/psd-gratuitas/tema-da-pagina-de-destino-da-revista-musical_12155996.htm#fromView=keyword&page=1&position=33&uuid=798ba58f-8d14-4507-b8da-8c8789d9d862&query=Interface+Web"><button>Visit</button></a>
+                    </div>
+            </div>       
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h3>Contact Me</h3>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required/>
+            
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Email"required/>
+            
+                    <label for="message">Your Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <p>&copy;Performance Test (HTML) <span>RIWI</span> 2025. Made by Emanuel Gaviria.<br>All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
